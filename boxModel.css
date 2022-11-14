@@ -1,0 +1,32 @@
+.box {
+
+    padding: 100px 200px 300px;
+    border: 20px solid blue;
+    margin: 200px;
+    background-color: greenyellow;
+
+}
+.rect {
+
+    border: 20px solid orangered;
+    padding: 110px 160px 170px;
+    margin: 30px;
+   
+}
+.rect1 {
+    border: 35px solid grey;
+    padding: 80px 90px 100px;
+    margin: 130px;
+
+}
+.rect2 {
+    border: 35px solid rgb(15, 73, 81);
+    padding: 20px;
+}.rect3 {
+    border: 25px solid rgb(10, 233, 48);
+    padding: 20px;
+}
+body {
+
+    background-image: url()
+}

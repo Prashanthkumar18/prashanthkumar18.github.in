@@ -1,0 +1,31 @@
+
+h1{
+    color:  rgb(9, 84, 40);
+    font-size:150px;
+    font-style: italic ;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+
+
+}
+
+#header {
+    color:red;
+}
+h2 , h3 {
+    color:  rgb(28, 198, 189);
+    font-size:200px;
+    font-style: normal ;
+    text-transform: lowercase;
+
+}
+
+
+
+.classSelector{
+    color: blueviolet;
+    font-size: 120px;
+
+}
+

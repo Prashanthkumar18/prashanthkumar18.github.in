@@ -1,0 +1,49 @@
+/* Descendant Selector */
+div p {
+
+    color: rgb(255, 238, 127);
+}
+p
+ {
+    color: greenyellow;
+ }
+
+/* child selector */
+
+ div > p {
+    color: rgb(191, 191, 247);
+ }
+ div + p {
+    color: rgb(98, 233, 143);
+ }
+ 
+
+ div ~ p {
+    color: rgb(229, 218, 218);
+ }
+
+ body {
+    background-image: url("sun.webp");
+ }
+
+ .static {
+    bottom: 100px;
+    left: 200px ;
+    position: static;
+ }
+ .relative {
+
+    right: -240px ;
+    top: 100px;
+    position: relative;
+
+
+
+ }
+ .absolute
+ {
+    position: absolute;
+    left: 900px;
+    bottom: 0px;
+    right: 0px;
+ }

@@ -12,7 +12,7 @@
         <p>
         <label>enter first name</label>
         <input type="text" name="firstname"
-        placeholder="Enter First name" required minlength="2" maxlength="12">
+        placeholder="Enter First name" required minlength="2" maxlength="12" autocomplete="on">
     </p>
         <p>
         <label> enter last name </label>
@@ -24,7 +24,8 @@
     </p>
 
 <label for="password">password</label>
-<input type="password" name="password">
+<input type="password" name="password"
+placeholder="password" required minlength="8" maxlength="15">
 
 <p>
 
@@ -32,6 +33,14 @@
     <input type ="radio"name= "geder">Male
     <input type="radio" name="geder">Female
     <input type="radio"name="geder">Others
+</p>
+
+<p>
+    <label for="course"> select course</label>
+    <input type="checkbox">Java
+    <input type="checkbox">TypeScript
+    <input type="checkbox">Haskell
+
 </p>
 
 <p>
@@ -54,7 +63,9 @@
 
 <p>
     <label for="Mobil">Enter mobile number</label>
-    <input type="tel" name="mobileNumber" placeholder="+91 1234567890">
+    <input type="tel" name="mobileNumber" placeholder="+91 1234567890"
+    placeholder="Mobil no" required maxlength="10"
+    >
 </p>
 
 <p>
@@ -71,11 +82,35 @@
     <p>
         <input type="Submit">
 <p>
-        <button type = "button" > Submit</button>
+        <!-----button type = "button"> Submit</button------->
     </p>
     </p>
 
     </form>
+
+    <!-----Limitations of Html/disadvantages
+        1.Alignment
+        2.Colour
+        3.FrontSize
+        4.Background image
+        5.Letterspacing , wordspacing ,
+        Margin, padding 
+
+    -->
+
+    <!----Audio, Video-->
+    <!-----audio src="audio">https://youtu.be/gH_RYRwVrVM</audio--->
+    <video src="video">https://youtu.be/gH_RYRwVrVM</video>
+<iframe src="https://youtu.be/gH_RYRwVrVM" frameborder="10"></iframe>
+
+
+
+    <!----------Syntax of CSS - Casacading Sylesheet
+        selector {
+            property : value;
+
+        }
+    -->
 
 
     
